@@ -4,17 +4,17 @@ const ProductCard = ({product}) =>{
     return(
         <div className="product">
         <div>
-            <p>{product.productId}</p>
+            <p>{product?.productId}</p>
         </div>
         <div>
-            <img src={`https://cdn.esyms.com/${product.img[0].src}`} alt={product.name.en}/>
+            <img src={`https://cdn.esyms.com/${product?.img[0]?.src}`} alt={product?.name?.en}/>
         </div>
         <div>
             <span>
-                {product.Type}
+                {product?.Type}
             </span>
             <h3>
-                {product.name.en}
+                {product?.name.en}
             </h3>
         </div>
     </div>
