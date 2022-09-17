@@ -81,7 +81,8 @@ const App = () => {
                         borderRadius: '20px',
                         padding: '12px',
                         fontSize: '15px',
-                        fontWeight:'500'}}
+                        fontWeight:'500',
+                        cursor: 'pointer'}}
                         onClick={handleMoreImage}>
                         Load More
                         </Button>
